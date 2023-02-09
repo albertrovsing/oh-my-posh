@@ -69,7 +69,7 @@
          "foreground": "#C2C19F",
          "style": "diamond",
           "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
-          "type": "text"
+          "type": "git"
         }
       ],
       "type": "prompt"
