@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#C2C19F",
+          "foreground": "#E1C1A5",
           "style": "plain",
           "template": "{{ .UserName }}'s ",
           "type": "session"
