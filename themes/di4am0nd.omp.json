@@ -56,7 +56,10 @@
           "properties": {
             "style": "roundrock",
             "threshold": 0
-          }
+          },
+           "style": "diamond",
+          "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
+          "type": "git"
         }
       ],
       "type": "prompt"
@@ -66,8 +69,9 @@
       "newline": true,
       "segments": [
         {
-          "style": "diamond",
-          "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
+          "foreground": "#C2C19F",
+          "style": "plain",
+          "template": "\u2b9e ",
           "type": "text"
         }
       ],
