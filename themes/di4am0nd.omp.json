@@ -56,7 +56,10 @@
           "properties": {
             "style": "roundrock",
             "threshold": 0
-          }
+          },
+          "style": "diamond",
+          "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
         }
       ],
       "type": "prompt"
