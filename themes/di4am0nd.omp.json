@@ -57,9 +57,6 @@
             "style": "roundrock",
             "threshold": 0
           },
-           "style": "diamond",
-          "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
-          "type": "git"
         }
       ],
       "type": "prompt"
@@ -69,9 +66,9 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#C2C19F",
-          "style": "plain",
-          "template": "\u2b9e ",
+         "foreground": "#C2C19F",
+         "style": "diamond",
+          "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
           "type": "text"
         }
       ],
