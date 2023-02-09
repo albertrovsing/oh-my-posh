@@ -57,9 +57,9 @@
             "style": "roundrock",
             "threshold": 0
           },
-          "style": "diamond",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
+           "style": "diamond",
+          "template": "<#ffffff>\u26A1</><b> {{ .HEAD }}</b>",
+          "type": "git"
         }
       ],
       "type": "prompt"
